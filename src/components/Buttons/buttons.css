@@ -1,0 +1,15 @@
+button{
+    background:none;
+    color:white;
+    border: none;
+    font-family:'Roboto', sans-serif;
+    font-size:1.3rem;
+    font-weight: 500;
+    cursor:pointer;
+    transition: 1s;
+    
+}
+button:hover{
+    font-weight: 500;
+    color: #00275D;
+}

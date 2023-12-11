@@ -1,0 +1,36 @@
+.title h1{
+    color: #DCDDDE;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 600;
+    font-size:2rem;
+    text-align: center;
+    width: 6rem;
+    height: 2.5rem;
+    padding-top: 10rem;
+    border-bottom: 1.5px solid #0078ED ;
+   
+}
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.skills img{
+    width: 70px;
+    height: 70px;
+    
+}
+.skills img:hover{
+    opacity: 90%;
+    transition: 1s;
+    background-color:  #0078ED;
+}
+
+.skills{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}

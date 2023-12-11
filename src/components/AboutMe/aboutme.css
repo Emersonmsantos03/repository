@@ -1,0 +1,51 @@
+.about-me{
+margin-top: 10rem;
+display: flex;
+padding: 30px 100px 30px 100px;
+gap: 20rem;
+
+}
+
+
+.profile img{
+   width: 230px;
+   height: 230px;
+   border-radius: 100%;
+}
+.profile img:hover{
+width: 233px;
+height: 233px;
+opacity: 90%;
+transition: 0.5s;
+}
+
+.info{
+    width: 40rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 44%;
+    
+}
+.info p{
+    margin-top: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    line-height: 1.9rem;
+    font-weight: 400;
+}
+.info h1{
+    font-size: 3rem;
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.info b{
+    color: #0078ED ;
+}
+
+
+
