@@ -1,6 +1,6 @@
 import './skills.css'
 
-let Skills = () =>{
+let Skills = ({id, image}) =>{
 
     const hab = [
         {id: '1', image: 'public/img/logocss.png'},
@@ -19,8 +19,8 @@ let Skills = () =>{
         </div>
 
         <div className='skills'>
-        {hab.map( (item) => (
-            <img key={item.id} src={item.image} alt={`Skill ${item.id}`}/>
+        {hab.map( () => (
+            <img key={id} src={image} alt={`Skill ${id}`}/>
 
 
         ))}
