@@ -1,4 +1,5 @@
 import './aboutme.css'
+import profile from '/public/img/profile.png'
 
 
 let AboutMe = (props) =>{
@@ -8,7 +9,7 @@ let AboutMe = (props) =>{
        <><div className='profile'>
 
             <img
-                src='/public/img/profile.png'
+                src={profile}
                  />
 
         </div><div className='info'>
