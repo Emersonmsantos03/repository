@@ -4,7 +4,7 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 
 let Screen = () =>{
     const imgs = [
-        {id: '1', image: '/public/img/devs/dev1.jpg'},
+        {id: '1', image: '/public/img/devs/dev1.jpg', link:'https://organodeveloper.web.app/'},
         {id: '2', image: '/public/img/devs/dev2.jpg'},
         {id: '3', image: '/public/img/devs/dev3.jpg'},
         {id: '4', image: '/public/img/devs/dev4.jpg'},
@@ -21,11 +21,12 @@ let Screen = () =>{
         navigation
         
         >
-            {imgs.map( (item) => (
-              <SwiperSlide key={item.id}>
+            {imgs.map( ({image, link, id}) => (
+              <SwiperSlide key={id}>
                 <img
-                src={item.image}
-                alt='image'
+                src={image}
+                alt={id}
+                a={link}
                 className='slide-item'/>
               </SwiperSlide>  
             ))}

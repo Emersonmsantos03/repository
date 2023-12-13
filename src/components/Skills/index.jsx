@@ -1,15 +1,23 @@
 import './skills.css'
+import '/src/App.css'
+import image1 from '/public/img/logocss.png'
+import image2 from '/public/img/logofirebase.png'
+import image3 from '/public/img/logohtml.png'
+import image4 from '/public/img/logojava.png'
+import image5 from '/public/img/logojs.png'
+import image6 from '/public/img/logomysql.png'
+import image7 from '/public/img/logoreact.png'
 
-let Skills = ({id, image}) =>{
+let Skills = () =>{
 
     const hab = [
-        {id: '1', image: 'public/img/logocss.png'},
-        {id: '2', image: 'public/img/logofirebase.png'},
-        {id: '3', image: 'public/img/logohtml.png'},
-        {id: '4', image: 'public/img/logojava.png'},
-        {id: '5', image: 'public/img/logojs.png'},
-        {id: '6', image: 'public/img/logomysql.png'},
-        {id: '7', image: 'public/img/logoreact.png'},
+        {id: '1', image: {image1}},
+        {id: '2', image: {image2}},
+        {id: '3', image: {image3}},
+        {id: '4', image: {image4}},
+        {id: '5', image: {image5}},
+        {id: '6', image: {image6}},
+        {id: '7', image: {image7}},
     ]
 
     return(
@@ -19,10 +27,10 @@ let Skills = ({id, image}) =>{
         </div>
 
         <div className='skills'>
-        {hab.map( () => (
-            <img key={id} src={image} alt={`Skill ${id}`}/>
+        {hab.map( ({id, image}) => (
+            <img key={id} src={image} alt={`Skill ${id}`} className="teste2"/>
 
-
+        
         ))}
         </div>
         </section>

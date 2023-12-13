@@ -4,15 +4,21 @@ import Header from '../src/components/Header'
 import Screen from './components/Screen'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
+import Board from './components/Board'
 
 function App() {
 
   return (
     <div>
    <Header />
-   <Screen/>
-   <AboutMe/>
-   <Skills/>
+   <Screen />
+   <AboutMe />
+   <div className='teste'>
+   <Skills />
+   <div className='teste3'>
+   <Board />
+   </div>
+   </div>
    </div>
   )
 }
