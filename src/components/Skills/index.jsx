@@ -1,5 +1,4 @@
 import './skills.css'
-import '/src/App.css'
 import image1 from '/public/img/logocss.png'
 import image2 from '/public/img/logofirebase.png'
 import image3 from '/public/img/logohtml.png'
