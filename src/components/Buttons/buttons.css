@@ -1,3 +1,5 @@
+
+
 button{
     background:none;
     color:white;
@@ -6,10 +8,20 @@ button{
     font-size:1.3rem;
     font-weight: 500;
     cursor:pointer;
-    transition: 1s;
+    transition: 1s ease;
+    height: 2rem;
+    width: 10rem;
+    
     
 }
 button:hover{
     font-weight: 500;
-    color: #00275D;
+    color: #0078ED;
+    font-size: 1.4rem;
+    transition: 1s ease;
+}
+
+@media only screen and (max-width: 600px) {
+    
+
 }

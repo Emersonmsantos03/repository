@@ -16,7 +16,9 @@ let Header = () => {
             </div>
             <div className='nav-buttons'>
             <Buttons name='Início' className='inicio' />
-            <Buttons name='Sobre mim' className='sobre'/>
+            <Buttons name='Vantagens' className='sobre'/>
+            <Buttons name='Landing Page' className='sobre'/>
+            <Buttons name='Habilidades' className='sobre'/>
             <Buttons name='contato' className='contato' />
             </div>
         </nav>

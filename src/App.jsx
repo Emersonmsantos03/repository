@@ -1,24 +1,27 @@
 import { useState } from 'react'
 import './App.css'
 import Header from '../src/components/Header'
-import Screen from './components/Screen'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
-import Board from './components/Board'
+import LandingPage from './components/LandingPage'
+import Advantages from './components/Advantages'
+import Interescted from './components/Interescted'
+import Footer from './components/Footer'
 
 function App() {
+
+  const landing = document.querySelector('landingPage-container')
 
   return (
     <div>
    <Header />
-   <Screen />
    <AboutMe />
-   <div className='teste'>
+   <LandingPage/>
+   <Advantages />
    <Skills />
-   <div className='teste3'>
-   <Board />
-   </div>
-   </div>
+   <Interescted/>
+   <Footer />
+   
    </div>
   )
 }

@@ -1,0 +1,145 @@
+
+
+.cards-info-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.advs-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 10rem 0 0 0;
+    flex-wrap: wrap;
+
+}
+
+.adv-card{
+   
+    color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 15%;
+    height: 20rem;
+    border-radius: 5px;
+    gap: 2rem;
+    text-align: center;
+}
+
+.adv-card img{
+   
+    width: 80px;
+    height: 80px;
+}
+
+
+.adv-card-texts{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    margin: 0 0.5rem;
+
+}
+
+.adv-card-texts h1{
+
+    font-size: 1.7rem;
+    font-weight: 600;
+    height: 3rem;
+    color: #0078ED;
+
+}
+
+.adv-card-texts p{
+
+    font-size: 1.2rem;
+    font-weight: 300;
+    height: 12rem;
+    color: #F4F4F4;
+    width: 100%;
+
+}
+
+.adv-card img {
+    width: 5rem;
+    height: auto;
+}
+
+
+.more-info{
+    width: 50%;
+    height: Auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .cards-info-container {
+        display: flex;
+        flex-direction: row;
+      }
+      
+      .advs-cards {
+        display: flex;
+        flex-direction: column; /* Alterando para coluna para telas menores */
+        gap: 2rem; /* Reduzindo o espaçamento entre os cards */
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        padding: 5rem 0; /* Reduzindo o espaçamento superior */
+        flex-wrap: wrap;
+      }
+      
+      .adv-card {
+        color: #F4F4F4;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 100%; /* Ocupando toda a largura disponível em telas menores */
+        height: auto; /* Ajustando a altura para se adaptar ao conteúdo */
+        border-radius: 5px;
+        gap: 2rem;
+        text-align: center;
+      }
+      
+      .adv-card img {
+        width: 80px;
+        height: 80px;
+      }
+      
+      .adv-card-texts {
+        display: flex;
+        gap: 1rem; /* Reduzindo o espaçamento entre os textos */
+        flex-direction: column;
+        margin: 0.5rem;
+      }
+      
+      .adv-card-texts h1 {
+        font-size: 1.5rem; /* Ajustando o tamanho da fonte */
+        font-weight: 600;
+        height: auto; /* Ajustando a altura para se adaptar ao conteúdo */
+        color: #0078ED;
+      }
+      
+      .adv-card-texts p {
+        font-size: 1rem; /* Ajustando o tamanho da fonte */
+        font-weight: 300;
+        height: auto; /* Ajustando a altura para se adaptar ao conteúdo */
+        color: #F4F4F4;
+      }
+      
+      .adv-card img {
+        width: 5rem;
+        height: auto;
+      }
+      
+      .more-info {
+        width: 100%; /* Ocupando toda a largura disponível em telas menores */
+        height: auto; /* Ajustando a altura para se adaptar ao conteúdo */
+      }
+}

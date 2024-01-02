@@ -1,51 +1,121 @@
+
 .about-me{
-margin-top: 10rem;
 display: flex;
-padding: 30px 100px 30px 100px;
-gap: 20rem;
+gap: 5rem;
+width: 100%;
+height: 100vh;
+justify-content: center;
+align-items: center;
+margin-top: 5rem;
+
 
 }
-
+.profile{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
 
 .profile img{
-   width: 230px;
-   height: 230px;
+   width: 25rem;
+   height: auto;
    border-radius: 100%;
 }
 .profile img:hover{
-width: 233px;
-height: 233px;
+width: 25.5rem;
+height: auto;
 opacity: 90%;
 transition: 0.5s;
 }
 
 .info{
-    width: 40rem;
+    width: 50%;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
-    left: 44%;
+    gap: 2rem;
+    align-items: center;
     
 }
 .info p{
     margin-top: 2rem;
     font-family: 'Inter', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-top: 1rem;
     line-height: 1.9rem;
     font-weight: 400;
+    width: 70%;
 }
 .info h1{
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-family:'Roboto', sans-serif;
     font-weight: 600;
+    width: 100%;
+    text-align: center;
+    margin-right: 8rem;
 }
 
 .info b{
     color: #0078ED ;
 }
 
+@media only screen and (max-width: 600px) {
 
+.about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
 
+.profile {
+  width: 80%; /* Ajuste a largura para ocupar a maior parte da tela em telas menores */
+  max-width: 300px; /* Defina uma largura máxima para evitar que a imagem fique muito grande */
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.profile img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%; /* Use 50% para obter um círculo perfeito */
+}
+
+.profile img:hover {
+  width: 100%; /* Ajuste o tamanho durante o hover */
+  opacity: 0.9;
+  transition: 0.5s;
+}
+
+.info {
+  width: 80%; /* Ajuste a largura para ocupar a maior parte da tela em telas menores */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.info p {
+  font-size: 1.6rem; /* Reduza o tamanho da fonte */
+  width: 100%; /* Ajuste a largura para ocupar a tela inteira */
+}
+
+.info h1 {
+  font-size: 2.4rem; /* Reduza o tamanho da fonte */
+  width: 100%; /* Ajuste a largura para ocupar a tela inteira */
+  text-align: center;
+  margin-right: 0; /* Remova a margem à direita em telas menores */
+}
+
+.info b {
+  color: #0078ED;
+}
+}

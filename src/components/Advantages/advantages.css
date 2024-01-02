@@ -1,0 +1,133 @@
+
+.advantages{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.advantages-title{
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    
+}
+
+.advantages-title h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #F4F4F4;
+
+}
+
+.advantages-title b{
+    color: #0078ED;
+}
+
+
+.advantages-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+}
+
+.advantages-bottom button{
+    width: 15rem;
+    height: 3.5rem;
+    background-color: #0078ED;
+    border-radius: 30px;
+
+}
+
+.advantages-bottom button:hover{
+    width: 15rem;
+    height: 3.5rem;
+    color: #0078ED;
+    border-radius: 30px;
+    background-color: #F4F4F4;
+
+}
+
+.advantages-bottom a{
+    width: 15rem;
+    height: 3.5rem;
+    text-decoration: none;
+}
+
+.advantages-bottom a:hover{
+    color: #0078ED;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .advantages {
+        width: 100%;
+        height: 180vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .advantages-title {
+        width: 100%;
+        height: auto; /* Ajustando a altura para se adaptar ao conteúdo */
+        margin-bottom: 1.5rem; /* Adicionando espaçamento abaixo do título */
+      }
+      
+      .advantages-title h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        color: #F4F4F4;
+      }
+      
+      .advantages-title b {
+        color: #0078ED;
+      }
+      
+      .advantages-cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column; /* Alterando para coluna para telas menores */
+        align-items: center;
+        width: 100%;
+        height: auto; /* Ajustando a altura para se adaptar ao conteúdo */
+      }
+      
+      .advantages-card {
+        margin-bottom: 1.5rem; /* Adicionando espaçamento entre os cards */
+      }
+      
+      .advantages-bottom button,
+      .advantages-bottom a {
+        width: 100%; /* Ocupar toda a largura disponível */
+        height: 3.5rem;
+        margin-bottom: 1rem; /* Adicionando espaçamento entre os botões/link */
+        border-radius: 30px;
+      }
+      
+      .advantages-bottom button:hover {
+        color: #0078ED;
+        background-color: #F4F4F4;
+      }
+      
+      .advantages-bottom a:hover {
+        color: #0078ED;
+      }
+      
+      /* Adicione uma media query para telas com largura máxima de 600 pixels */
+      @media only screen and (max-width: 600px) {
+        .advantages-title h1 {
+          font-size: 2.5rem; /* Reduzindo o tamanho da fonte para telas menores */
+        }
+      }
+      
+}

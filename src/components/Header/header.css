@@ -1,14 +1,15 @@
+
+
 .header{
     width: 100%;
     height: 5rem;
-    border-bottom: solid #00275D 1px;
-    background-color: #0078ED;
+    background-color: transparent;
     box-sizing: border-box;
-    box-shadow: 2px 5px 3px 1px rgba(0, 0, 0, 0.6);
     background-attachment: scroll;
     position: fixed;
     top: 0%;
     z-index: 2;
+
     
     
     
@@ -20,6 +21,7 @@
     display:flex;
     flex-direction: row;
     position: fixed;
+    
 
 }
 
@@ -29,6 +31,7 @@
     left: 900px;
     top: 25px;
     gap: 50px;
+    width: 70%;
     
 
     
@@ -47,6 +50,44 @@
 
 .contato{
     position: fixed;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        width: 100%;
+        height: 8rem;
+        background-color: transparent;
+        box-sizing: border-box;
+        background-attachment: scroll;
+        position: fixed;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      
+      .nav {
+        display: 100%;
+        width: auto;
+        height: 15rem;
+        align-items: center;
+        justify-content: center;
+       
+      }
+      
+      .nav-buttons {
+        display: none;
+        width: 0px;
+        height: 0px;
+      }
+      
+      .inicio,
+      .sobre,
+      .contato {
+        margin-top: 1rem;
+        display: none; /* Adicionando espaçamento entre os itens */
+      }
 }
 
 

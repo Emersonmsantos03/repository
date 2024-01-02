@@ -1,3 +1,4 @@
+
 .logo{
     height: 55px;
     position: absolute;
@@ -8,4 +9,18 @@
 }
 .logo:hover{
     height: 55.5px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+.logo{
+    height: 40px;
+    position: fixed;
+    top: 3rem;
+
+}
+.logo:hover{
+    height: 55.5px;
+}
+
 }

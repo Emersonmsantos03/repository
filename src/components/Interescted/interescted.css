@@ -1,0 +1,130 @@
+
+
+.interescted-container{
+    display: flex;
+    justify-content: row;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.interescted-texts{
+display: flex;
+width: 40%;
+height: 100vh;
+flex-direction: column;
+gap: 3rem;
+justify-content: center;
+text-align: start;
+}
+
+.interescted-texts h1{
+font-size: 3rem;
+font-weight: 600;
+
+}
+
+
+.interescted-texts h2{
+    font-size: 2rem;
+    font-weight: 500;
+    }
+
+    .interescted-button{
+        display: flex;
+        width: 40%;
+        height: 40vh;
+        flex-direction: column;
+        gap: 3rem;
+        justify-content: end;
+        text-align: end;
+        align-items: center;
+        
+        }    
+
+        .interescted-button h3{
+            font-size: 3rem;
+            font-weight: 600;
+           
+        }
+
+        
+        .interescted-button button{
+            font-size: 2rem;
+            font-weight: 400;
+            color: #F4F4F4;
+            background-color: #0078ED;
+            width: 15rem;
+            height: 3.5rem;
+            border-radius: 30px;
+        }
+        .interescted-button button:hover{
+            color: #0078ED;
+            background-color: #F4F4F4;
+            border-radius: 30px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .interescted-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column; /* Alterando para coluna para telas menores */
+                width: 100%;
+                height: 100vh;
+              }
+              
+              .interescted-texts {
+                display: flex;
+                width: 80%; /* Reduzindo a largura em telas menores */
+                height: auto; /* Ajustando a altura para se adaptar ao conteúdo */
+                flex-direction: column;
+                gap: 2rem; /* Reduzindo o espaçamento entre os elementos */
+                justify-content: center;
+                text-align: center; /* Centralizando o texto em telas menores */
+              }
+              
+              .interescted-texts h1 {
+                font-size: 2.5rem; /* Reduzindo o tamanho da fonte */
+                font-weight: 600;
+              }
+              
+              .interescted-texts h2 {
+                font-size: 1.8rem; /* Reduzindo o tamanho da fonte */
+                font-weight: 500;
+              }
+              
+              .interescted-button {
+                display: flex;
+                width: 80%; /* Reduzindo a largura em telas menores */
+                height: auto; /* Ajustando a altura para se adaptar ao conteúdo */
+                flex-direction: column;
+                gap: 2rem; /* Reduzindo o espaçamento entre os elementos */
+                justify-content: center;
+                text-align: center; /* Centralizando o texto em telas menores */
+                align-items: center;
+              }
+              
+              .interescted-button h3 {
+                font-size: 2.5rem; /* Reduzindo o tamanho da fonte */
+                font-weight: 600;
+              }
+              
+              .interescted-button button {
+                font-size: 1.8rem; /* Reduzindo o tamanho da fonte */
+                font-weight: 400;
+                color: #F4F4F4;
+                background-color: #0078ED;
+                width: 15rem;
+                height: 3.5rem;
+                border-radius: 30px;
+              }
+              
+              .interescted-button button:hover {
+                color: #0078ED;
+                background-color: #F4F4F4;
+                border-radius: 30px;
+              }
+        }
+    
